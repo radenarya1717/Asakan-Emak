@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asakan Emak - Rasa Rumah, Sentuhan Modern</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">
+                <img src="gambar/Logo.png" alt=""> Asakan Emak
+            </h1>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Pesan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <h1>Hangatnya Dapur Emak, Modern di Setiap Sajian</h1>
+            <p>Wilujeng Sumping. Kami hadirkan masakan rumahan otentik dengan suasana yang bersih dan nyaman.</p>
+            <button onclick="scrollToSection('menu')">Lihat Menu</button>
+        </div>
+    </section>
+
+    <section id="about" class="about fade-in">
+        <h2>Tentang Dapur Kami</h2>
+        <img src="gambar/interior.jpg" alt="Interior Asakan Emak yang hangat dan modern">
+        <p>Di setiap suapan, ada rasa yang bikin rindu. Dari dapur penuh cinta, kami hadirkan cita rasa rumahan khas emak — sederhana, hangat, dan bikin nyaman. Karena di sini, setiap masakan bukan sekadar makanan, tapi cerita dari rumah.</p>
+    </section>
+
+    <section id="menu" class="menu fade-in">
+        <h2>Pilihan Menu Rumahan</h2>
+        <div class="menu-grid" id="menu-carousel">
+            <div class="menu-item">
+                <img src="gambar/Paket nasi ayam goreng.jpg" alt="Nasi Ayam Goreng Sunda">
+                <h3>Nasi Ayam Goreng Sunda</h3>
+                <p>Ayam Kuning dengan bumbu tradisional dan penyajian modern.</p>
+                <p class="price">Rp 39.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+            <div class="menu-item">
+                <img src="gambar/paket nasi liwet.jpg" alt="Nasi Liwet Kampung">
+                <h3>Nasi Liwet Kampung</h3>
+                <p>Paket Nasi Liwet ciri khas Kampung yang kaya rempah dan wangi.</p>
+                <p class="price">Rp 69.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+            <div class="menu-item">
+                <img src="gambar/Sop iga.jpg" alt="Sop Iga Sapi">
+                <h3>Sop Iga Sapi Bandung</h3>
+                <p>Kuah kaldu bening dengan iga sapi empuk khas Bandung.</p>
+                <p class="price">Rp 39.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+            <div class="menu-item">
+                <img src="gambar/ayam goreng serundeng.jpg" alt="Ayam Goreng Lengkuas">
+                <h3>Ayam Goreng Lengkuas</h3>
+                <p>Ayam gurih dengan serundeng lengkuas yang renyah dan wangi.</p>
+                <p class="price">Rp 35.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+            <div class="menu-item">
+                <img src="gambar/bakso.jpg" alt="Bakso Urat Emak">
+                <h3>Bakso Urat Kuah Kaldu</h3>
+                <p>Bakso urat yang kenyal disajikan dengan kuah kaldu rumahan.</p>
+                <p class="price">Rp 25.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+            <div class="menu-item">
+                <img src="gambar/es cendol.jpg" alt="Es Cendol Gula Aren">
+                <h3>Es Cendol Gula Aren</h3>
+                <p>Minuman tradisional yang segar dengan gula aren asli dan santan.</p>
+                <p class="price">Rp 15.000</p>
+                <button>Pesan Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials fade-in">
+        <h2>Kata Pelanggan Kami</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>"Masakan yang otentik dan enak! Tempatnya bersih banget, seperti rumah sendiri."</p>
+                <cite>- Razzanju </cite>
+            </div>
+            <div class="testimonial">
+                <p>"Suasana nyaman dan staf ramah. Sop Iga-nya wajib coba!"</p>
+                <cite>- El hilman</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Sangat cocok untuk makan keluarga. Pasti kembali lagi."</p>
+                <cite>- Anna Kanaka</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="cta-reservation fade-in">
+        <div class="cta-content">
+            <h2>Ingin Cepat Menikmati Masakan Emak?</h2>
+            <p>Pesan meja Anda sekarang juga atau pesan antar langsung melalui WhatsApp! Kami siap menyambut Anda dengan kehangatan rumahan.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/625721752447" class="cta-button secondary-cta" target="_blank">Hubungi via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact">
+                <h3>Hubungi Kami</h3>
+                <p>Telepon: +62 5721752447</p>
+                <p>Email: info@asakanemak.com</p>
+                <p>Alamat: Jl. Niaga, Kota Karawang</p>
+            </div>
+            <div class="hours">
+                <h3>Jam Buka</h3>
+                <p>Senin-Jumat: 08.00 - 21.00</p>
+                <p>Sabtu-Minggu: 07.00 - 21.00</p>
+            </div>
+            <div class="social">
+                <h3>Ikuti Kami</h3>
+                <a href="#" aria-label="Ikuti kami di Instagram"><img src="images/icon ig.webp" alt="Ikon Instagram"></a>
+                <a href="#" aria-label="Hubungi kami di WhatsApp"><img src="images/icon wa.png" alt="Ikon WhatsApp"></a>
+                <a href="#" aria-label="Sukai kami di Facebook"><img src="images/icon fb.png" alt="Ikon Facebook"></a>
+            </div>
+        </div>
+        <p>&copy; 2025 Asakan Emak. Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        const sections = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 }); // Menambahkan threshold untuk deteksi lebih awal
+        sections.forEach(section => observer.observe(section));
+
+        // Logika Carousel (Dipertahankan untuk fungsi mobile)
+        if (window.innerWidth <= 768) {
+            createCarousel('menu-carousel');
+        }
+
+        function createCarousel(containerId) {
+            const container = document.getElementById(containerId);
+            const items = container.querySelectorAll('.menu-item');
+            let currentIndex = 0;
+            let startX = 0;
+            let isDragging = false;
+
+            function showItem(index) {
+                items.forEach((item, i) => {
+                    // Di mobile, semua item disembunyikan kecuali yang aktif
+                    item.style.display = i === index ? 'block' : 'none';
+                });
+            }
+
+            function nextItem() {
+                currentIndex = (currentIndex + 1) % items.length;
+                showItem(currentIndex);
+            }
+
+            function prevItem() {
+                currentIndex = (currentIndex - 1 + items.length) % items.length;
+                showItem(currentIndex);
+            }
+
+            showItem(currentIndex);
+
+            container.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].clientX;
+                isDragging = true;
+            });
+
+            container.addEventListener('touchmove', (e) => {
+                if (!isDragging) return;
+                const currentX = e.touches[0].clientX;
+                const diff = startX - currentX;
+                if (Math.abs(diff) > 50) { 
+                    if (diff > 0) nextItem();
+                    else prevItem();
+                    isDragging = false;
+                }
+            });
+
+            container.addEventListener('touchend', () => {
+                isDragging = false;
+            });
+            
+            // Auto-play hanya jika jumlah item lebih dari 1
+            if (items.length > 1) {
+                setInterval(nextItem, 5000);
+            }
+        }
+    </script>
+</body>
+</html>
